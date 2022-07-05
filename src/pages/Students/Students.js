@@ -4,7 +4,7 @@ import RefreshButton from '../../components/RefreshButton';
 import StudentRow from './StudentRow';
 
 const Students = () => {
-    const tableHeadItems = ['SN', 'First Name', 'Last Name'];
+    const tableHeadItems = ['SN', 'First Name', 'Last Name', 'Action'];
 
     const tableHead = <tr>
         {

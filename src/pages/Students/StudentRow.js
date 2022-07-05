@@ -1,4 +1,6 @@
 import React from 'react';
+import EditButton from '../../components/EditButton';
+import ViewButton from '../../components/ViewButton';
 
 const StudentRow = () => {
     const tableRowsData = ['1', 'Montasim', 'Mamun'];
@@ -9,6 +11,10 @@ const StudentRow = () => {
                 tableRowsData?.map(tableRowData =>
                     <td>{tableRowData}</td>)
             }
+            <td className='flex gap-x-4'>
+                <EditButton />
+                <ViewButton />
+            </td>
         </tr>
     );
 };
