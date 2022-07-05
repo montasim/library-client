@@ -8,7 +8,6 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<Home />}>
-          <Route index element={<Home />} />
           <Route path="students" element={<Students />} />
           <Route path="books" element={<Books />} />
         </Route>
