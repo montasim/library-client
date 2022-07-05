@@ -1,9 +1,14 @@
+import { Routes, Route } from "react-router-dom";
+import Students from "./pages/Students/Students";
+import Books from "./pages/Books/Books";
+
 function App() {
   return (
     <div>
-      <h1 h1 className="text-3xl font-bold underline" >
-        Hello world!
-      </h1 >
+      <Routes>
+        <Route path="/" element={<Students />} />
+        <Route path="books" element={<Books />} />
+      </Routes>
     </div >
   );
 }
