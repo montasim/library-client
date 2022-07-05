@@ -4,7 +4,7 @@ import RefreshButton from '../../components/RefreshButton';
 import BookRow from './BookRow';
 
 const Students = () => {
-    const tableHeadItems = ['SN', 'Book Name', 'Author', 'Borrowed By', 'Date of Borrow', 'Expected Date of Return'];
+    const tableHeadItems = ['SN', 'Book Name', 'Author', 'Borrowed By', 'Date of Borrow', 'Expected Date of Return', 'Action'];
 
     const tableHead = <tr>
         {
