@@ -1,4 +1,6 @@
 import React from 'react';
+import NewButton from '../../components/NewButton';
+import RefreshButton from '../../components/RefreshButton';
 import StudentRow from './StudentRow';
 
 const Students = () => {
@@ -12,6 +14,11 @@ const Students = () => {
 
     return (
         <section className='p-1'>
+            <div className="flex justify-between mb-6">
+                <NewButton modalId={'create-new-product'} />
+                <RefreshButton />
+            </div>
+
             <table class="table table-zebra table-compact">
                 <thead>
                     {
