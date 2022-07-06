@@ -1,4 +1,5 @@
 import React from 'react';
+import DeleteButton from '../../components/DeleteButton';
 import EditButton from '../../components/EditButton';
 import ViewButton from '../../components/ViewButton';
 
@@ -13,7 +14,7 @@ const StudentRow = () => {
             }
             <td className='flex gap-x-4'>
                 <EditButton />
-                <ViewButton />
+                <DeleteButton />
             </td>
         </tr>
     );
